@@ -8,9 +8,13 @@
 # b. Create a function to find the maximum value in an array of numbers
 #
 # c. Create a function that takes two arrays with the same amount of items as an
-# argument and combines them
+# argument and combines them into key => value pairs in a hash that is returned
+# as the result of the function
+#
+# 2. Create a script that prints out the following pattern 20 times:
 
 #1.a
+
 def add_only_in_america(some_string)
 	p some_string = some_string + " Only in America!"
 end
@@ -24,7 +28,7 @@ def min_max_in_array(a, b, c, d, e, f)
 	p printmax
 end
 
-p "the maximum number is: " + min_max_in_array(1, 2, 3, 4, 5, 6).to_s
+p "the maximum number is (in an array containing 1, 2, 3, 4, 5, 6): " + min_max_in_array(1, 2, 3, 4, 5, 6).to_s
 
 #1.c
 
